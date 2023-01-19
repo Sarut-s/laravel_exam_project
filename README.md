@@ -1,4 +1,4 @@
-# Laravel E-commerce
+# Laravel 
 
 ### Installation
 
