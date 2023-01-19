@@ -30,11 +30,12 @@ php artisan migrate:fresh --seed
 ```sh
 php artisan serve
 ```
-## Credentials
+##  Credentials
 - #### user test
 - username: test
 - password : 1234
-
-ER
+- 
+####
+## ER
 ![ER](https://user-images.githubusercontent.com/123094656/213518084-258fadfd-d181-433f-9f2e-5d8dbfee8fe5.jpg)
 
