@@ -2,37 +2,16 @@
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Sarut-s/laravel_exam_project.git
-   ```
-2. Install Composer packages
-   ```sh
-   composer install
-   ```
-3. Copy the environment file & edit it accordingly
-   ```sh
-   cp .env.example .env
-   ```
+- git clone https://github.com/Sarut-s/laravel_exam_project.git
+- cd laravel_exam_project
+- cp .env.example `.env`
+- open .env and update DB_DATABASE (database details)
+- run : `composer install`
+- run : `php artisan key:generate`
+- run : `php artisan migrate:fresh --seed`
+- run : `php artisan serve`
 
-4. Generate application key
-   ```sh
-   php artisan key:generate
-   ```
-
-5. Create Database then migrate and seed
-   ```sh
-   php artisan migrate --seed
-
-6. Compile all your assets including a source map
-   ```sh
-   npm install && npm run dev
-   ```
-
-7. Serve the application
-   ```sh
-   php artisan serve
-   ```
-   
-
-
+## Credentials
+- #### user test
+- username: test
+- password : 1234
